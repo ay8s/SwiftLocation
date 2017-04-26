@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Daniele Margutti' => 'hello@danielemargutti.com' }
   s.source = { :git => 'https://github.com/malcommac/SwiftLocation.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
   s.frameworks            = "CoreLocation", "MapKit", "Foundation"
   s.source_files = 'Sources/**/*.swift'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
